@@ -10,14 +10,18 @@
 	
 	<h1>Hello Carousel World</h1>
 
-	<img class="slide active" src="./img/1.jpeg" />
+	<!-- Slide è la classe che accomuna tutti gli elementi -->
+	<!-- Active decide chi è visibile -->
+	<!-- First e last ci servono per "sgamare" subito la prima e l'ultima (v. seconda soluzione) -->
+	<img class="slide first active" src="./img/1.jpeg" />
 	<img class="slide" src="./img/2.webp" />
 	<img class="slide" src="./img/3.jpeg" />
-	<img class="slide" src="./img/4.jpg" />
+	<img class="slide last" src="./img/4.jpg" />
 
 	<button id="btnPrev">Previous</button>
 	<button id="btnNext">Next</button>
 
-	<script src="./js/main.js"></script>
+	<!-- <script src="./js/main.js"></script> -->
+	<script src="./js/versioneDue.js"></script>
 </body>
 </html>
