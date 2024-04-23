@@ -19,3 +19,10 @@ document.getElementById("btnNext").addEventListener("click", function () {
 	console.log(`Ho spostato la selezione`, immagineAttivaElement, immagineNextElement);
 
 });
+
+
+//Esempio di event handler
+document.getElementById("btnPrev").addEventListener("click", function () {
+	//CODICE DA ESEGUIRE AL CLICK VA QUI
+    console.log("Sono un pulsante ma non ho uno scopo, aiutami!");
+});
